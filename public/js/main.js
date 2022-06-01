@@ -93,7 +93,7 @@ console.log(btn4)
 // Exo4 - changement de chiffres
 let un = document.getElementsByClassName("m-1")[4]
 un.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "1") {
         nbr1Exo4.value = "1"
     } else {
         nbr2Exo4.value = "1"
@@ -102,7 +102,7 @@ un.addEventListener("click", () => {
 })
 let deux = document.getElementsByClassName("m-1")[5]
 deux.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "2") {
         nbr1Exo4.value = "2"
     } else {
         nbr2Exo4.value = "2"
@@ -112,7 +112,7 @@ deux.addEventListener("click", () => {
 
 let trois = document.getElementsByClassName("m-1")[6]
 trois.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "3") {
         nbr1Exo4.value = "3"
     } else {
         nbr2Exo4.value = "3"
@@ -122,7 +122,7 @@ trois.addEventListener("click", () => {
 
 let quatre = document.getElementsByClassName("m-1")[7]
 quatre.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "4") {
         nbr1Exo4.value = "4"
     } else {
         nbr2Exo4.value = "4"
@@ -132,7 +132,7 @@ quatre.addEventListener("click", () => {
 
 let cinq = document.getElementsByClassName("m-1")[8]
 cinq.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "5") {
         nbr1Exo4.value = "5"
     } else {
         nbr2Exo4.value = "5"
@@ -152,7 +152,7 @@ six.addEventListener("click", () => {
 
 let sept = document.getElementsByClassName("m-1")[10]
 sept.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "7") {
         nbr1Exo4.value = "7"
     } else {
         nbr2Exo4.value = "7"
@@ -162,7 +162,7 @@ sept.addEventListener("click", () => {
 
 let huit = document.getElementsByClassName("m-1")[11]
 huit.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "8") {
         nbr1Exo4.value = "8"
     } else {
         nbr2Exo4.value = "8"
@@ -172,7 +172,7 @@ huit.addEventListener("click", () => {
 
 let neuf = document.getElementsByClassName("m-1")[12]
 neuf.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "9") {
         nbr1Exo4.value = "9"
     } else {
         nbr2Exo4.value = "9"
@@ -182,7 +182,7 @@ neuf.addEventListener("click", () => {
 
 let zero = document.getElementsByClassName("m-1")[13]
 zero.addEventListener("click", () => {
-    if (nbr1Exo4.value !== "") {
+    if (nbr1Exo4.value !== "0") {
         nbr1Exo4.value = "0"
     } else {
         nbr2Exo4.value = "0"
