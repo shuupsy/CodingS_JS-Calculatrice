@@ -95,18 +95,20 @@ let un = document.getElementsByClassName("m-1")[4]
 un.addEventListener("click", () => {
     if (nbr1Exo4.value !== "1") {
         nbr1Exo4.value = "1"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "1"
     } else {
         nbr2Exo4.value = "1"
-        
     }
 })
 let deux = document.getElementsByClassName("m-1")[5]
 deux.addEventListener("click", () => {
     if (nbr1Exo4.value !== "2") {
         nbr1Exo4.value = "2"
+    } else if (nbr1Exo4.value !== "") {
+        nbr2Exo4.value = "2"
     } else {
         nbr2Exo4.value = "2"
-        
     }
 })
 
@@ -114,9 +116,10 @@ let trois = document.getElementsByClassName("m-1")[6]
 trois.addEventListener("click", () => {
     if (nbr1Exo4.value !== "3") {
         nbr1Exo4.value = "3"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "3"
     } else {
         nbr2Exo4.value = "3"
-        
     }
 })
 
@@ -124,9 +127,10 @@ let quatre = document.getElementsByClassName("m-1")[7]
 quatre.addEventListener("click", () => {
     if (nbr1Exo4.value !== "4") {
         nbr1Exo4.value = "4"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "4"
     } else {
         nbr2Exo4.value = "4"
-        
     }
 })
 
@@ -134,9 +138,10 @@ let cinq = document.getElementsByClassName("m-1")[8]
 cinq.addEventListener("click", () => {
     if (nbr1Exo4.value !== "5") {
         nbr1Exo4.value = "5"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "5"
     } else {
         nbr2Exo4.value = "5"
-        
     }
 })
 
@@ -144,9 +149,10 @@ let six = document.getElementsByClassName("m-1")[9]
 six.addEventListener("click", () => {
     if (nbr1Exo4.value !== "6") {
         nbr1Exo4.value = "6"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "6"
     } else {
         nbr2Exo4.value = "6"
-        
     }
 })
 
@@ -154,9 +160,10 @@ let sept = document.getElementsByClassName("m-1")[10]
 sept.addEventListener("click", () => {
     if (nbr1Exo4.value !== "7") {
         nbr1Exo4.value = "7"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "7"
     } else {
         nbr2Exo4.value = "7"
-        
     }
 })
 
@@ -164,9 +171,10 @@ let huit = document.getElementsByClassName("m-1")[11]
 huit.addEventListener("click", () => {
     if (nbr1Exo4.value !== "8") {
         nbr1Exo4.value = "8"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "8"
     } else {
         nbr2Exo4.value = "8"
-        
     }
 })
 
@@ -174,9 +182,10 @@ let neuf = document.getElementsByClassName("m-1")[12]
 neuf.addEventListener("click", () => {
     if (nbr1Exo4.value !== "9") {
         nbr1Exo4.value = "9"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "9"
     } else {
         nbr2Exo4.value = "9"
-        
     }
 })
 
@@ -184,9 +193,10 @@ let zero = document.getElementsByClassName("m-1")[13]
 zero.addEventListener("click", () => {
     if (nbr1Exo4.value !== "0") {
         nbr1Exo4.value = "0"
+    } else if (nbr1Exo4.value !== null) {
+        nbr2Exo4.value = "0"
     } else {
         nbr2Exo4.value = "0"
-        
     }
 })
 
