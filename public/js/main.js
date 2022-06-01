@@ -19,13 +19,21 @@ let signe = document.querySelectorAll("select")[0]
 let egal2 = document.getElementById("response2")
 
 btn2.addEventListener("click", () => {
-    switch(signe.value) {
-        case "+" : egal2.innerText = Number(nbr1Exo2.value) + Number(nbr2Exo2.value); break;
-        case "-" : egal2.innerText = Number(nbr1Exo2.value) - Number(nbr2Exo2.value); break; 
-        case "*" : egal2.innerText = Number(nbr1Exo2.value) * Number(nbr2Exo2.value); break; 
-        case "/" : egal2.innerText = Number(nbr1Exo2.value) / Number(nbr2Exo2.value); break;
+    switch (signe.value) {
+        case "+":
+            egal2.innerText = Number(nbr1Exo2.value) + Number(nbr2Exo2.value);
+            break;
+        case "-":
+            egal2.innerText = Number(nbr1Exo2.value) - Number(nbr2Exo2.value);
+            break;
+        case "*":
+            egal2.innerText = Number(nbr1Exo2.value) * Number(nbr2Exo2.value);
+            break;
+        case "/":
+            egal2.innerText = Number(nbr1Exo2.value) / Number(nbr2Exo2.value);
+            break;
     }
-    
+
 })
 
 // Exo3
@@ -64,7 +72,7 @@ btn3.addEventListener("click", () => {
         egal3.innerText = Number(nbr1Exo3.value) + Number(nbr2Exo3.value);
     } else if (signe3.getAttribute("class") === "fas fa-minus") {
         egal3.innerText = Number(nbr1Exo3.value) - Number(nbr2Exo3.value);
-    } else if (signe3.getAttribute("class") === "fas fa-times"){
+    } else if (signe3.getAttribute("class") === "fas fa-times") {
         egal3.innerText = Number(nbr1Exo3.value) * Number(nbr2Exo3.value);
     } else {
         egal3.innerText = Number(nbr1Exo3.value) / Number(nbr2Exo3.value);
@@ -77,7 +85,64 @@ let nbr1Exo4 = document.querySelectorAll("input")[6]
 let nbr2Exo4 = document.querySelectorAll("input")[7]
 
 let signe4 = document.getElementsByTagName("i")[9]
+let egal4 = document.getElementById("response4")
+let btn4 = document.getElementsByTagName("button")[7]
 
+console.log(btn4)
+
+// Exo4 - changement de chiffres
+let un = document.getElementsByClassName("m-1")[4]
+un.addEventListener("click", () => {
+    nbr1Exo4.value = "1"
+})
+
+let deux = document.getElementsByClassName("m-1")[5]
+deux.addEventListener("click", () => {
+    nbr1Exo4.value = "2"
+})
+
+let trois = document.getElementsByClassName("m-1")[6]
+trois.addEventListener("click", () => {
+    nbr1Exo4.value = "3"
+})
+
+let quatre = document.getElementsByClassName("m-1")[7]
+quatre.addEventListener("click", () => {
+    nbr1Exo4.value = "4"
+})
+
+let cinq = document.getElementsByClassName("m-1")[8]
+cinq.addEventListener("click", () => {
+    nbr1Exo4.value = "5"
+})
+
+let six = document.getElementsByClassName("m-1")[9]
+six.addEventListener("click", () => {
+    nbr1Exo4.value = "6"
+})
+
+let sept = document.getElementsByClassName("m-1")[10]
+sept.addEventListener("click", () => {
+    nbr1Exo4.value = "7"
+})
+
+let huit = document.getElementsByClassName("m-1")[11]
+huit.addEventListener("click", () => {
+    nbr1Exo4.value = "8"
+})
+
+let neuf = document.getElementsByClassName("m-1")[12]
+neuf.addEventListener("click", () => {
+    nbr1Exo4.value = "9"
+})
+
+let zero = document.getElementsByClassName("m-1")[13]
+zero.addEventListener("click", () => {
+    nbr1Exo4.value = "0"
+})
+
+
+// Exo4 - changement de signe
 let plus = document.getElementsByClassName("m-1")[14]
 plus.addEventListener("click", () => {
     signe4.setAttribute("class", "fas fa-plus")
@@ -96,4 +161,17 @@ fois.addEventListener("click", () => {
 let divise = document.getElementsByClassName("m-1")[17]
 divise.addEventListener("click", () => {
     signe4.setAttribute("class", "fas fa-divide")
+})
+
+// Exo4 - Calcul
+btn4.addEventListener("click", () => {
+    if (signe4.getAttribute("class") === "fas fa-plus") {
+        egal4.innerText = Number(nbr1Exo4.value) + Number(nbr2Exo4.value);
+    } else if (signe4.getAttribute("class") === "fas fa-minus") {
+        egal4.innerText = Number(nbr1Exo4.value) - Number(nbr2Exo4.value);
+    } else if (signe4.getAttribute("class") === "fas fa-times") {
+        egal3.innerText = Number(nbr1Exo4.value) * Number(nbr2Exo4.value);
+    } else {
+        egal4.innerText = Number(nbr1Exo4.value) / Number(nbr2Exo4.value);
+    }
 })
