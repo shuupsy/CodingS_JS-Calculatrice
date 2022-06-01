@@ -55,20 +55,26 @@ signedivise.addEventListener("click", () => {
 })
 
 
-
 let btn3 = document.getElementsByTagName("button")[2]
-
-
 let egal3 = document.getElementById("response3")
 
 
+btn3.addEventListener("click", () => {
+    if (signe3.getAttribute("class") === "fas fa-plus") {
+        egal3.innerText = Number(nbr1Exo3.value) + Number(nbr2Exo3.value);
+    } else if (signe3.getAttribute("class") === "fas fa-minus") {
+        egal3.innerText = Number(nbr1Exo3.value) - Number(nbr2Exo3.value);
+    } else if (signe3.getAttribute("class") === "fas fa-times"){
+        egal3.innerText = Number(nbr1Exo3.value) * Number(nbr2Exo3.value);
+    } else {
+        egal3.innerText = Number(nbr1Exo3.value) / Number(nbr2Exo3.value);
+    }
+})
 
-// btn3.addEventListener("click", () => {
-//     switch(signe3.value) {
-//         case "+" : egal2.innerText = Number(nbr1Exo2.value) + Number(nbr2Exo2.value); break;
-//         case "-" : egal2.innerText = Number(nbr1Exo2.value) - Number(nbr2Exo2.value); break; 
-//         case "*" : egal2.innerText = Number(nbr1Exo2.value) * Number(nbr2Exo2.value); break; 
-//         case "/" : egal2.innerText = Number(nbr1Exo2.value) / Number(nbr2Exo2.value); break;
-//     }
-    
-// })
+
+// Exo4
+let nbr1Exo4 = document.querySelectorAll("input")[6]
+let nbr2Exo4 = document.querySelectorAll("input")[7]
+
+let signe4 = document.getElementsByTagName("i")[9]
+
