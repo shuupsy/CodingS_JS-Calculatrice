@@ -78,3 +78,22 @@ let nbr2Exo4 = document.querySelectorAll("input")[7]
 
 let signe4 = document.getElementsByTagName("i")[9]
 
+let plus = document.getElementsByClassName("m-1")[14]
+plus.addEventListener("click", () => {
+    signe4.setAttribute("class", "fas fa-plus")
+})
+
+let moins = document.getElementsByClassName("m-1")[15]
+moins.addEventListener("click", () => {
+    signe4.setAttribute("class", "fas fa-minus")
+})
+
+let fois = document.getElementsByClassName("m-1")[16]
+fois.addEventListener("click", () => {
+    signe4.setAttribute("class", "fas fa-times")
+})
+
+let divise = document.getElementsByClassName("m-1")[17]
+divise.addEventListener("click", () => {
+    signe4.setAttribute("class", "fas fa-divide")
+})
